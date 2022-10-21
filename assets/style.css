@@ -492,6 +492,18 @@ footer .second_footer {
     font-size: 14px;
 }
 
+@media (max-width: 1069px) {
+    .botoes_debaixo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 801px) {
+    .botoes_debaixo {
+        width: 90%;
+    }
+}
+
 @media (max-width: 793px) {
     footer .second_footer {
         flex-direction: column;
@@ -505,4 +517,8 @@ footer .second_footer {
     footer .footer_content2 {
         margin-top: 30px;
     }
+}
+
+@media (max-width: 485px) {
+    
 }
