@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".material-symbols-outlined").addEventListener("click",function(){
+                if(document.querySelector(".google_menu_after_icon").style.display == 'flex') {
+                    document.querySelector(".google_menu_after_icon").style.display = 'none';
+                } else {
+                    document.querySelector(".google_menu_after_icon").style.display = 'flex';
+                }
+            });
+        };
+
+        function mostra() {
+            document.getElementById('pesquisa_por_imagem').style.display = 'none' ;
+        }
+
+        function aparece() {
+            document.getElementById('pesquisa_por_imagem').style.display = 'flex' ;
+        }
+    </script>
+    
+    <style type="text/css">
+        #pesquisa_por_imagem #botao_x {
+            display: block;
+        }
+    </style>
+    
+    <title>Google Clone</title>
+</head>
+<body>
+    <header>
+        <nav>
+                <ul>
+                    <li>
+                        <div class="google_nav_style_text">
+                            <a href="https://gmail.com">Gmail</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="google_nav_style_text">
+                            <a href="https://images.google.com">Imagens</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="google_nav_style_app">
+                            <span class="material-symbols-outlined">
+                                apps
+                            </span>
+                            <div class="google_menu_after_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app"><div class="app_icons">
+                                            <img src="assets/images/shield-256x256-93428.png" />
+                                        </div>
+                                        <span>Conta</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.google.com.br/webhp"><div class="app_icons">
+                                            <img src="assets/images/google-256x256-93413.png" />
+                                        </div>
+                                        <span>Pesquisa</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://maps.google.com.br/maps?hl=pt-BR"><div class="app_icons">
+                                            <img src="assets/images/google-maps-256x256-93398.png" />
+                                        </div>
+                                        <span>Maps</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/"><div class="app_icons">
+                                            <img src="assets/images/youtube-256x256-93401.png" />
+                                        </div>
+                                        <span>YouTube</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://play.google.com/?hl=pt-BR"><div class="app_icons">
+                                            <img src="assets/images/play-store-256x256-93405.png" />
+                                        </div>
+                                        <span>Play</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://news.google.com/"><div class="app_icons">
+                                            <img src="assets/images/Google_News_icon.png" />
+                                        </div>
+                                        <span>Notícias</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://mail.google.com/mail/"><div class="app_icons">
+                                            <img src="assets/images/gmail-256x256-93415.png" />
+                                        </div>
+                                        <span>Gmail</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://meet.google.com/?hs=197"><div class="app_icons">
+                                            <img src="assets/images/google-meet-2923654-2416657.png" />
+                                        </div>
+                                        <span>Meet</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://chat.google.com/"><div class="app_icons">
+                                            <img src="assets/images/google-chat-logo-512x512.png" />
+                                        </div>
+                                        <span>Chat</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://contacts.google.com/?hl=pt-BR"><div class="app_icons">
+                                            <img src="assets/images/Google_Contacts_icon.svg.png" />
+                                        </div>
+                                        <span>Contatos</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/"><div class="app_icons">
+                                            <img src="assets/images/google-256x256-93414.png" />
+                                        </div>
+                                        <span>Drive</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://calendar.google.com/calendar"><div class="app_icons">
+                                            <img src="assets/images/google-calendar-2923652-2416655.png" />
+                                        </div>
+                                        <span>Agenda</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://translate.google.com.br/?hl=pt-BR&tab=iT"><div class="app_icons">
+                                            <img src="assets/images/google-256x256-93416.png" />
+                                        </div>
+                                        <span>Tradutor</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://photos.google.com/?tab=iq&pageId=none"><div class="app_icons">
+                                            <img src="assets/images/google-photos-2981833-2476486.png" />
+                                        </div>
+                                        <span>Fotos</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://duo.google.com/?usp=duo_ald"><div class="app_icons">
+                                            <img src="assets/images/google-duo-722701.png" />
+                                        </div>
+                                        <span>Duo</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.google.com.br/shopping?hl=pt-BR&source=og"><div class="app_icons">
+                                            <img src="assets/images/google-shopping-256x256-1721668.png" />
+                                        </div>
+                                        <span>Shopping</span></a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+        </nav>
+        <div class="google_nav_button">
+                <a href="https://accounts.google.com"><button>
+                    Fazer Login
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <section id="google_search_body">
+        <div class="container">
+            <div class="google_logo">
+                <img src="assets/images/googlelogo_color_272x92dp.png" alt="Google Logo" />
+            </div>
+            <div class="main_search">
+                <div class="search_icon">
+                    <span class="material-icons-outlined">
+                        search
+                    </span>
+                </div>
+                <input type="search" name="search" id="google_search" autofocus />
+                <div class="keyboard_icon" title="Ferramentas de inserção de texto">
+                    <span class="material-icons-outlined">
+                        keyboard_alt
+                    </span>
+                </div>
+                <span id="lens_icon">
+                    <div class="google_lens">
+                        <img src="assets/images/google_lens.png" title="Pesqusa por imagem" onClick="aparece()" />
+                    </div>
+                    <div id="pesquisa_por_imagem" class="hidden">
+                        <div class="box_imagem">
+                            <div class="titulo_imagem">
+                                <div class="pesquise_text">Pesquise qualquer imagem com o Google Lens</div>
+                                <input type="button" id="botao_x" value="x" onClick="mostra()" />
+                            </div>
+                            <div class="area_imagem">
+                                <div class="content_inside">
+                                    <div class="imagem_e_titulo">
+                                        <div class="img_box">
+                                            <img src="https://i.imgur.com/CjEDZax.png" />
+                                        </div>
+                                        <div class="main_image_text">Arraste uma imagem para cá ou <a href="">faça upload de um arquivo</a></div>
+                                    </div>
+                                    <hr class="hr">
+                                    <div class="search_link">
+                                        <input type="text" id="image_search" method="post" /> <button>Pesq.</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                
+                
+            </div>
+
+            <div class="botoes_debaixo">
+                <button class="botao_g">Pesquisa Google</button>
+                <a href="https://www.google.com/doodles"><button  class="botao_g">Estou com sorte</button></a>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <footer>
+        <div class="first_footer">
+            <div class="brasil">
+                Brasil
+            </div>
+            <hr></hr>
+        </div>
+        <div class="second_footer">
+            <div class="footer_content1">
+                <ul>
+                    <a href="https://about.google.com/"><li>Sobre</li></a>
+                    <a href="https://ads.google.com/intl/pt-BR_br/home"><li>Publicidade</li></a>
+                    <a href="https://smallbusiness.withgoogle.com/intl/pt-BR_br"><li>Negócios</li></a>
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1"><li>Como funciona a Pesquisa</li></a>
+                </ul>
+            </div>
+            <div class="footer_content2">
+                <ul>
+                    <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1"><li>Privacidade</li></a>
+                    <a href="https://policies.google.com/terms?hl=pt-BR&fg=1"><li>Termos</li></a>
+                    <a href="https://www.google.com/preferences?hl=pt-BR&fg=1"><li>Configurações</li></a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
