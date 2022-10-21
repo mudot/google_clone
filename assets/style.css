@@ -125,6 +125,8 @@ header button:hover {
     display: none;
     text-align: center;
     flex-wrap: wrap;
+    z-index: 10;
+    background-color: #FFFFFF;
 }
 
 .google_menu_after_icon ul li a {
@@ -275,6 +277,7 @@ header button:hover {
     box-shadow: 3px 5px 8px -3px #ACABAD;
     border-radius: 20px;
     background-color: #FFFFFF;
+    z-index: 3;
 }
 
 .box_imagem {
@@ -493,6 +496,10 @@ footer .second_footer {
     footer .second_footer {
         flex-direction: column;
         align-items: center;
+    }
+
+    footer .footer_content1 {
+        flex-wrap: wrap;
     }
 
     footer .footer_content2 {
